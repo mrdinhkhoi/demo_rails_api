@@ -1,28 +1,9 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Open terminal do this: 
+  $ git clone https://github.com/mrdinhkhoi/demo_rails_api.git
+  $ cd demo_rails_api 
+  $ bunde
+  $ rake db:migrate
+  $ rake db: seed
+  $ rails s
+open localhost:3000/talks to see the API
+then open the vue_resource_demo.html to see the list talks
